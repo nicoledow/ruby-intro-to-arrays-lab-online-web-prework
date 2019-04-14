@@ -8,3 +8,7 @@ def array_with_two_elements
   my_two_array << "hello"
   my_two_array << "world"
 end
+
+def first_element(array)
+  return array[0]
+end
